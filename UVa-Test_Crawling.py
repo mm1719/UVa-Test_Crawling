@@ -2,9 +2,9 @@ import smtplib
 import sys
 from smtplib import SMTP
 
-From = 'sending.account@gmail.com'
-Password = 'yourpassword'
-To = 'receiving.account@gmail.com'
+From = 'sending.account@gmail.com' # Please Change
+Password = 'yourpassword'          # Please Change
+To = 'receiving.account@gmail.com' # Please Change
 
 line = sys.stdin.read()
 
